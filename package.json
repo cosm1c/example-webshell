@@ -1,0 +1,32 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "UI sub-project within sbt",
+  "main": "./ui/dist/bundle.js",
+  "dependencies": {
+    "google-protobuf": "*",
+    "rxjs": "*"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "*",
+    "gulp": "*",
+    "gulp-mocha": "*",
+    "gulp-util": "*",
+    "html-webpack-plugin": "*",
+    "less-plugin-clean-css": "*",
+    "mocha": "*",
+    "rimraf": "*",
+    "source-map-loader": "*",
+    "stats-webpack-plugin": "*",
+    "ts-loader": "*",
+    "typescript": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*",
+    "webpack-fail-plugin": "*"
+  },
+  "scripts": {
+    "package": "gulp --gulpfile ui/gulpfile.js package"
+  },
+  "author": "Cory Prowse <cory@prowse.com>",
+  "license": "UNLICENSED"
+}

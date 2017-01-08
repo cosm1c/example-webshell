@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "stripInternal": true,
+    "outDir": "ui/dist",
+    "lib": [
+      "DOM",
+      "ES6"
+    ]
+  },
+  "files": [
+    "../typings/require.d.ts"
+  ],
+  "exclude": [
+    "../../node_modules"
+  ]
+}
